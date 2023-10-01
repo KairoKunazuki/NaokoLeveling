@@ -1,0 +1,38 @@
+{
+  "name": "naoko-leveling",
+  "version": "0.0.1",
+  "description": "A standard leveling system forgescript extension for discord bot",
+  "main": "lib/index",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KairoKunazuki/NaokoLeveling"
+  },
+  "keywords": [
+    "forgescript",
+    "discord",
+    "bot",
+    "bdl",
+    "bds",
+    "bdscript",
+    "fs",
+    "djs",
+    "discodjs"
+  ],
+  "author": "BotForge",
+  "license": "MIT",
+  "types": "./lib/index.d.ts",
+  "dependencies": {
+    "forgescript": "^1.0.7",
+    "quick.db": "^9.1.7"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.0",
+    "typescript": "^5.2.2"
+  }
+}
