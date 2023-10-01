@@ -30,7 +30,7 @@ const client = new ForgeClient({
 This package is based on [quick.db](https://github.com/plexidev/quick.db) and it is possible to save your data using their Database Drivers.
 
 Different type of Database Drivers requires additional packages as listed:
-- SQLiteDriver requires [better-sqlite3](https://github.com/WiseLibs/better-sqlite3)
+- SqliteDriver requires [better-sqlite3](https://github.com/WiseLibs/better-sqlite3)
 - MySQLDriver requires [mysql2](https://github.com/sidorares/node-mysql2)
 - JSONDriver requires [write-file-atomic](https://github.com/npm/write-file-atomic)
 - MongoDriver requires [mongoose](https://github.com/Automattic/mongoose)
@@ -38,12 +38,12 @@ Different type of Database Drivers requires additional packages as listed:
 Example of using SQLite database
 ```js
 const { NaokoLeveling } = require("naoko-leveling")
-const { SQLiteDriver } = require("quick.db");
+const { SqliteDriver } = require("quick.db");
 const client = new ForgeClient({
     ...options // The options you have passed,
     extensions: [
         new NaokoLeveling(
-            new SQLiteDriver('./leveling.db') // Driver
+            new SqliteDriver('./leveling.db') // Driver
         )
     ]
 })
