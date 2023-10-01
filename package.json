@@ -1,6 +1,6 @@
 {
   "name": "naoko-leveling",
-  "version": "0.0.1",
+  "version": "0.0.1-build-aFgxcoaPizc",
   "description": "A standard leveling system forgescript extension for discord bot",
   "main": "lib/index",
   "directories": {
